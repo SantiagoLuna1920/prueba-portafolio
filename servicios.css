@@ -1,0 +1,900 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 320px) {
+
+    .servicios-titulo-1 {
+        margin-top: 60px;
+    }
+
+    .servicios-titulo {
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        color: #ababab;
+        font-weight: 17;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-titulo {
+        margin-top: 10px;
+        border: solid #ababab;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: #ababab;
+    }
+
+    .container-servicios {
+        width: 100%;
+        margin-top: 100px;
+        height: 2550px;
+        text-align: center;
+    }
+    
+    .servicios-parrafo {
+        margin: 20px 55px;
+        color:  #888888;
+        font-size: 25px;
+    }
+
+    .elemento-1 {
+        width: 90%;
+        height: 470px;
+        display: inline-block;
+        border: solid #D1E0EB 1px;
+        margin-top: 60px;
+    }
+
+     .h3 {
+        font-size: 20px;
+        padding: 15px;
+        color: #535363;
+        text-decoration: none;
+        transition: color 0.4s ease 0s;
+    }
+
+    .elemento-1 .h3:hover {
+        color: #9e9eaa;
+    }
+
+    .hour {
+        font-size: 20px;
+        color: #9b9bac;
+        margin-top: -10px;
+    }
+
+    .consult {
+        font-size: 20px;
+        color: #9b9bac;
+        margin: 30px;
+    }
+
+    .saber-mas {
+        color: #FFFFFF;
+        background: #6f6f7e;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer !important;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 100%;
+    }
+
+    .sobre-mi {
+        margin-left: 40px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 100%;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 17px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .footer {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 1100px;
+        background: #535363;
+    }
+
+    .contact-1 {
+        font-size: 30px;
+        width: 100%;
+        font-family: sans-serif;
+        font-weight: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .contact {
+        height: 40px;
+        display: flex;
+        margin-top: 30px;
+        color: #FFFFFF;
+    }
+
+    .contact-container {
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: space-around;
+        color: white;
+        height: 600px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formulario-2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa {
+        margin-top: 30px;
+        width: 90%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        background-image: url("https://www.google.com/maps/vt/data=u4V9SV2dI6GqRf6u9fcKZkECIgFDwYEBRZVmiNVAEWrdE2VnYyGovXuNduc0kMs8hwnX9FuygONXFFGhrow516b_PCBhdkTU_QNe89rHw4yNE5oLZ9zoNvJCIk2vckfczukcLZi4w2u_h4i2khH_D2ZE5_hhYaNuFjmgA2rDPnPOz5B-OKB8AKrFE4WxlQ");
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover, .servicios:hover, .proyectos:hover, .clientes:hover, .experiencia:hover, .contacto:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .informacion {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 50px;
+        height: 130px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .informacion > span {
+        margin-top: 8px;
+        display: inline-block;
+    }
+    
+    .formulario {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .logo-face {
+        width: 50px;
+        height: 50px; 
+    }
+
+    .logo-face-1 {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;  
+    }
+
+    .logo-twitter {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .logo-twitter-1 {
+        width: 50px;
+        height: 50px;   
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+
+    .footer-saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 10;
+        width: 100px;
+        margin-left: 155px;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .name-complete {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .name-complete:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .servicios-titulo-1 {
+        margin-top: 60px;
+    }
+
+    .servicios-titulo {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        color: #ababab;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-titulo {
+        margin-top: 10px;
+        border: solid #ababab;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: #ababab;
+    }
+
+    .container-servicios {
+        width: 100%;
+        margin-top: 100px;
+        height: 1800px;
+        text-align: center;
+    }
+    
+    .servicios-parrafo {
+        margin: 60px 200px;
+        color:  #888888;
+        font-size: 22px;
+    }
+
+    .servicios-elementos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elemento-1 {
+        width: 40%;
+        height: 460px;
+        float: left;
+        border: solid #D1E0EB 1px;
+        margin-left: 30px;
+    }
+
+     .h3 {
+        font-size: 22px;
+        padding: 50px;
+        color: #535363;
+        text-decoration: none;
+        transition: color 0.4s ease 0s;
+        width: 100%;
+        height: 100px;
+    }
+
+    .elemento-1 .h3:hover {
+        color: #9e9eaa;
+    }
+
+    .hour {
+        font-size: 20px;
+        color: #9b9bac;
+        margin-top: -10px;
+    }
+
+    .consult {
+        font-size: 20px;
+        color: #9b9bac;
+        margin: 30px;
+    }
+
+    .saber-mas {
+        color: #FFFFFF;
+        background: #6f6f7e;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 50%;
+        float: left;
+        cursor: pointer !important;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 2px;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 60%;
+    }
+
+    .sobre-mi {
+        margin-left: 80px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 60px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .footer {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 1130px;
+        background: #535363;
+    }
+
+    .contact-1 {
+        font-size: 30px;
+        width: 100%;
+        font-family: sans-serif;
+        font-weight: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .contact {
+        height: 40px;
+        display: flex;
+        margin-top: 30px;
+        color: #FFFFFF;
+    }
+
+    .contact-container {
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: space-around;
+        color: white;
+        height: 600px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formulario-2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa {
+        margin-top: 50px;
+        width: 90%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        background-image: url("https://www.google.com/maps/vt/data=u4V9SV2dI6GqRf6u9fcKZkECIgFDwYEBRZVmiNVAEWrdE2VnYyGovXuNduc0kMs8hwnX9FuygONXFFGhrow516b_PCBhdkTU_QNe89rHw4yNE5oLZ9zoNvJCIk2vckfczukcLZi4w2u_h4i2khH_D2ZE5_hhYaNuFjmgA2rDPnPOz5B-OKB8AKrFE4WxlQ");
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover, .servicios:hover, .proyectos:hover, .clientes:hover, .experiencia:hover, .contacto:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .informacion {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 50px;
+        height: 130px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    .informacion > span {
+        margin-top: 8px;
+        display: inline-block;
+    }
+    
+    .formulario {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .logo-face {
+        width: 50px;
+        height: 50px; 
+    }
+
+    .logo-face-1 {
+        width: 50px;
+        height: 50px;
+        margin-top: 80px;  
+    }
+
+    .logo-twitter {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .logo-twitter-1 {
+        width: 50px;
+        height: 50px;   
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+
+    .footer-saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 10;
+        width: 100px;
+        margin-left: 155px;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .name-complete {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .name-complete:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+}
+
+@media (min-width: 998px) {
+
+    .servicios-titulo-1 {
+        margin-top: 60px;
+    }
+
+    .servicios-titulo {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        color: #ababab;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-titulo {
+        margin-top: 10px;
+        border: solid #ababab;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: #ababab;
+    }
+
+    .container-servicios {
+        width: 100%;
+        margin-top: 100px;
+        height: 1000px;
+        text-align: center;
+    }
+    
+    .servicios-parrafo {
+        margin: 60px 200px;
+        color:  #888888;
+        font-size: 20px;
+    }
+
+    .elemento-1 {
+        width: 22%;
+        height: 470px;
+        display: inline-block;
+        border: solid #D1E0EB 1px;
+        margin-left: 30px;
+        float: left;
+    }
+
+    .servicios-elementos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .h3 {
+        font-size: 18px;
+        padding: 50px;
+        color: #535363;
+        text-decoration: none;
+        transition: color 0.4s ease 0s;
+    }
+
+    .elemento-1 .h3:hover {
+        color: #9e9eaa;
+    }
+
+    .hour {
+        font-size: 20px;
+        color: #9b9bac;
+        margin-top: -10px;
+    }
+
+    .consult {
+        font-size: 20px;
+        color: #9b9bac;
+        margin: 30px;
+    }
+
+    .saber-mas {
+        color: #FFFFFF;
+        background: #6f6f7e;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer !important;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 60%;
+    }
+
+    .sobre-mi {
+        margin-left: 50px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 100px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 20px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .footer {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 860px;
+        background: #535363;
+    }
+
+    .contact-1 {
+        font-size: 50px;
+        width: 100%;
+        font-family: sans-serif;
+        font-weight: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .contact {
+        height: 60px;
+        display: flex;
+        margin-top: 40px;
+        color: #FFFFFF;
+    }
+
+    .contact-container {
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: space-around;
+        color: white;
+        height: 600px;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .formulario-2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa {
+        margin-top: 100px;
+        width: 40%;
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        background-image: url("https://www.google.com/maps/vt/data=u4V9SV2dI6GqRf6u9fcKZkECIgFDwYEBRZVmiNVAEWrdE2VnYyGovXuNduc0kMs8hwnX9FuygONXFFGhrow516b_PCBhdkTU_QNe89rHw4yNE5oLZ9zoNvJCIk2vckfczukcLZi4w2u_h4i2khH_D2ZE5_hhYaNuFjmgA2rDPnPOz5B-OKB8AKrFE4WxlQ");
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover, .servicios:hover, .proyectos:hover, .clientes:hover, .experiencia:hover, .contacto:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .informacion {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: -250px;
+        height: 130px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    .informacion > span {
+        margin-top: 13px;
+        display: inline-block;
+    }
+    
+    .formulario {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin-top: 60px;
+        outline: none;
+    }
+
+    .logo-face-1 {
+        width: 50px;
+        height: 50px;
+        margin-left: 90px;
+    }
+
+    .logo-twitter-1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 10;
+        width: 100px;
+        margin-left: 155px;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .name-complete {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .name-complete:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+}

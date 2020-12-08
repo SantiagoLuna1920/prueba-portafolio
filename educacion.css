@@ -1,0 +1,562 @@
+* {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@media (min-width: 320px) {
+
+    .servicios-titulo-1 {
+        margin-top: 60px;
+    }
+
+    .servicios-titulo {
+        text-align: center;
+        width: 100%;
+        letter-spacing: 0.05em;
+        color: #ababab;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-titulo {
+        border: solid #ababab;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: #ababab;
+    }
+
+    .proyectos {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: start;
+    }
+
+    .proyectos-sub {
+        height: 188px;
+        width: 70%;
+    }
+
+    .imagen-1, .imagen-2, .imagen-3  {
+        width: 100%;
+        height: 188px;
+    }
+
+    .imagen-1 {
+        margin-top: 20px;
+    }
+
+    .imagen-2 {
+        margin-top: 250px;
+    }
+
+    .imagen-3 {
+        margin-top: 470px; 
+    }
+
+    .parrado-sub {
+        width: 100%;
+        height: 188px;
+        margin-top: 20px;
+        color: #ababab;
+        font-family: sans-serif;
+    }
+
+    .parrafo-sub {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .parrado-h4 {
+        font-size: 16px;
+    }
+
+    .container-servicios {
+        width: 100%;
+        margin-top: 100px;
+        height: 1000px;
+        text-align: center;
+    }
+
+    .saber-mas {
+        color: #FFFFFF;
+        background: #6f6f7e;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer !important;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 100%;
+    }
+
+    .sobre-mi {
+        margin-left: 40px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 100%;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 17px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .footer {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        top: 470px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 100px;
+        background: #535363;
+    }
+
+    .footer-logo {
+        margin-right: 30px;
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .name-complete {
+        text-decoration: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .servicios-titulo-1 {
+        margin-top: 60px;
+    }
+
+    .servicios-titulo {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        color: #ababab;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-titulo {
+        border: solid #ababab;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: #ababab;
+    }
+
+    .proyectos {
+        width: 100%;
+        height: 820px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: start;
+    }
+
+    .proyectos-sub {
+        height: 188px;
+        width: 70%;
+        display: flex;
+    }
+
+    .imagen {
+        width: 30%;
+        height: 200px;
+    }
+
+    .imagen-2, .imagen-3 {
+        margin-top: 20px;
+    }
+
+    .parrado-sub {
+        width: 70%;
+        height: 188px;
+        color: #ababab;
+        font-family: sans-serif;
+        padding-left: 40px;
+    }
+
+    .parrafo-sub {
+        margin-top: 30px;
+        font-size: 17px;
+    }
+
+    .parrado-h4 {
+        font-size: 22px;
+    }
+
+    .container-servicios {
+        width: 100%;
+        margin-top: 100px;
+        height: 1000px;
+        text-align: center;
+    }
+
+    .saber-mas {
+        color: #FFFFFF;
+        background: #6f6f7e;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer !important;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 60%;
+    }
+
+    .sobre-mi {
+        margin-left: 50px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 100px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 17px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .footer {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 100px;
+        background: #535363;
+    }
+
+    .footer-logo {
+        margin-right: 30px;
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .name-complete {
+        text-decoration: none;
+    }
+
+}
+
+@media (min-width: 998px) {
+
+    .servicios-titulo-1 {
+        margin-top: 60px;
+    }
+
+    .servicios-titulo {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        color: #ababab;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-titulo {
+        border: solid #ababab;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background: #ababab;
+    }
+
+    .proyectos {
+        width: 100%;
+        height: 820px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: start;
+    }
+
+    .proyectos-sub {
+        height: 188px;
+        width: 70%;
+        display: flex;
+    }
+
+    .imagen {
+        width: 30%;
+        height: 188px;
+    }
+
+    .parrado-sub {
+        width: 70%;
+        height: 188px;
+        color: #ababab;
+        font-family: sans-serif;
+        padding-left: 40px;
+    }
+
+    .parrafo-sub {
+        margin-top: 30px;
+        font-size: 17px;
+    }
+
+    .parrado-h4 {
+        font-size: 22px;
+    }
+
+    .container-servicios {
+        width: 100%;
+        margin-top: 100px;
+        height: 1000px;
+        text-align: center;
+    }
+
+    .saber-mas {
+        color: #FFFFFF;
+        background: #6f6f7e;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer !important;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 60%;
+    }
+
+    .sobre-mi {
+        margin-left: 50px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 100px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 20px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+   
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .footer {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 100px;
+        background: #535363;
+    }
+
+    .footer-logo {
+        margin-right: 30px;
+    }
+
+    .name-complete {
+        text-decoration: none;
+    }
+
+}

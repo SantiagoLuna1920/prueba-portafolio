@@ -1,0 +1,1027 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 320px) {
+
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 100%;
+    }
+
+    .sobre-mi, .servicios, .proyectos, .clientes, .experiencia, .contacto {
+        margin-right: 50px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 20px;
+        width: 50px;
+        font-size: 16px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 17px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .base {
+        width: 100%;
+        position: relative !important;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 100px;
+        background: rgb(228, 224, 224);
+        color: #3b3b61e3;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: normal;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .font-1 {
+        font-size: 10px;
+        font-weight: 1;
+        font-family: sans-serif;
+    }
+    
+    .font-2 {
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 0;
+    }
+
+    .base-1 {
+        width: 100%;
+        display: flex;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 800px;
+        background: whitesmoke;
+    }
+
+    .base-1 > div {
+        font-size: 10px;
+        width: 100%;
+        margin: 10px;
+        background: #535363;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 240px;
+    }
+
+    .parrafo-1 {
+        color: #FFFFFF;
+        font-weight: 20;
+        font-size: 11px;
+        font-family: sans-serif;
+        margin: 10px;
+    }
+
+    .color-h5 {   
+        letter-spacing: 0.05em;
+        color: #D1E0EB;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+    .button-1 {
+        margin-top: 20px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px 30px;
+        font-size: 13px;
+        font-weight: 10;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .block {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: rgb(228, 224, 224);
+        height: 670px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-2, .information-2 {
+        color: #535363;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .about-2 {
+        letter-spacing: normal;
+        font-weight: 1;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .information-2 {
+        margin: 30px 10px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 16px;
+    }
+    
+    .saber-mas {
+        margin-top: 20px;
+        color: #FFFFFF;
+        background: #535363;
+        padding: 10px 30px;
+        font-size: 18px;
+        cursor: pointer !important;
+    }
+
+    .footer {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 1100px;
+        background: #535363;
+    }
+
+    .contact-1 {
+        font-size: 30px;
+        width: 100%;
+        font-family: sans-serif;
+        font-weight: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .contact {
+        height: 40px;
+        display: flex;
+        margin-top: 30px;
+        color: #FFFFFF;
+    }
+
+    .contact-container {
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: space-around;
+        color: white;
+        height: 600px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formulario-2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa {
+        margin-top: 30px;
+        width: 90%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        background-image: url("https://www.google.com/maps/vt/data=u4V9SV2dI6GqRf6u9fcKZkECIgFDwYEBRZVmiNVAEWrdE2VnYyGovXuNduc0kMs8hwnX9FuygONXFFGhrow516b_PCBhdkTU_QNe89rHw4yNE5oLZ9zoNvJCIk2vckfczukcLZi4w2u_h4i2khH_D2ZE5_hhYaNuFjmgA2rDPnPOz5B-OKB8AKrFE4WxlQ");
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover, .servicios:hover, .proyectos:hover, .clientes:hover, .experiencia:hover, .contacto:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .informacion {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 50px;
+        height: 130px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .informacion > span {
+        margin-top: 8px;
+        display: inline-block;
+    }
+    
+    .formulario {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .logo-face {
+        width: 50px;
+        height: 50px; 
+    }
+
+    .logo-face-1 {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;  
+    }
+
+    .logo-twitter {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .logo-twitter-1 {
+        width: 50px;
+        height: 50px;   
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+
+    .footer-saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 10;
+        width: 100px;
+        margin-left: 155px;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .name-complete {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .name-complete:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+}
+
+@media (min-width: 768px) {
+
+    
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 40%;
+    }
+
+    .sobre-mi, .servicios, .proyectos, .clientes, .experiencia, .contacto {
+        margin-right: 40px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 20px;
+        width: 60px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .base {
+        width: 100%;
+        position: relative !important;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 100px;
+        background: rgb(228, 224, 224);
+        color: #3b3b61e3;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: normal;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .font-1 {
+        font-size: 16px;
+        font-weight: 1;
+        font-family: sans-serif;
+    }
+    
+    .font-2 {
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 0;
+    }
+
+    .base-1 {
+        width: 100%;
+        display: flex;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 900px;
+        background: whitesmoke;
+    }
+
+    .base-1 > div {
+        font-size: 16px;
+        width: 40%;
+        margin: 10px;
+        background: #535363;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+
+    .parrafo-1 {
+        color: #FFFFFF;
+        font-weight: 20;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin: 20px;
+    }
+
+    .color-h5 {   
+        letter-spacing: 0.05em;
+        color: #D1E0EB;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    
+    .button-1 {
+        margin-top: 20px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 15px 35px;
+        font-size: 18px;
+        font-weight: 10;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .block {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: rgb(228, 224, 224);
+        height: 561px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-2, .information-2 {
+        color: #535363;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .about-2 {
+        letter-spacing: normal;
+        font-weight: 1;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .information-2 {
+        margin: 40px 30px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 23px;
+    }
+    
+    .saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #535363;
+        padding: 15px 35px;
+        font-size: 30px;
+        cursor: pointer !important;
+    }
+
+    .footer {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 1130px;
+        background: #535363;
+    }
+
+    .contact-1 {
+        font-size: 30px;
+        width: 100%;
+        font-family: sans-serif;
+        font-weight: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .contact {
+        height: 40px;
+        display: flex;
+        margin-top: 30px;
+        color: #FFFFFF;
+    }
+
+    .contact-container {
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: space-around;
+        color: white;
+        height: 600px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formulario-2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa {
+        margin-top: 50px;
+        width: 90%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        background-image: url("https://www.google.com/maps/vt/data=u4V9SV2dI6GqRf6u9fcKZkECIgFDwYEBRZVmiNVAEWrdE2VnYyGovXuNduc0kMs8hwnX9FuygONXFFGhrow516b_PCBhdkTU_QNe89rHw4yNE5oLZ9zoNvJCIk2vckfczukcLZi4w2u_h4i2khH_D2ZE5_hhYaNuFjmgA2rDPnPOz5B-OKB8AKrFE4WxlQ");
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover, .servicios:hover, .proyectos:hover, .clientes:hover, .experiencia:hover, .contacto:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .informacion {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 50px;
+        height: 130px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    .informacion > span {
+        margin-top: 8px;
+        display: inline-block;
+    }
+    
+    .formulario {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .logo-face {
+        width: 50px;
+        height: 50px; 
+    }
+
+    .logo-face-1 {
+        width: 50px;
+        height: 50px;
+        margin-top: 80px;  
+    }
+
+    .logo-twitter {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .logo-twitter-1 {
+        width: 50px;
+        height: 50px;   
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+
+    .footer-saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 10;
+        width: 100px;
+        margin-left: 155px;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .name-complete {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .name-complete:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+}
+
+@media (min-width: 998px) {
+
+    
+    .menu {
+        width: 100%;
+        height: 100px;
+        background: #535363;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         top:0; left:0;
+         bottom: 0px; right: 0px;
+         position: fixed;
+        z-index:10;
+        vertical-align: baseline;
+    }
+
+    .menu-2 {
+        justify-content: center;
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: Arial,Helvetica,sans-serif;
+        display: flex;
+        width: 60%;
+    }
+
+    .sobre-mi {
+        margin-left: 50px;
+        display: flex;
+        cursor: pointer !important;
+        text-decoration: none;
+        color: white;
+        height: 30px;
+        width: 100px;
+    }
+
+    .name {
+        margin-left: 60px;
+        cursor: pointer !important;
+        font-size: 20px;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .apellido {
+        color: #ababab;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+    
+    .nombre {
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+
+    .base {
+        width: 100%;
+        position: relative !important;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 100px;
+        background: rgb(228, 224, 224);
+        color: #3b3b61e3;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: normal;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .font-1 {
+        font-size: 20px;
+        font-weight: 1;
+        font-family: sans-serif;
+    }
+    
+    .font-2 {
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: 0;
+    }
+
+    .base-1 {
+        width: 100%;
+        display: flex;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 650px;
+        background: whitesmoke;
+    }
+
+    .base-1 > div {
+        font-size: 16px;
+        width: 27%;
+        margin: 10px;
+        background: #535363;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+    }
+
+    .parrafo-1 {
+        color: #FFFFFF;
+        font-weight: 20;
+        font-size: 17px;
+        font-family: sans-serif;
+        margin: 30px;
+    }
+
+    .color-h5 {   
+        letter-spacing: 0.05em;
+        color: #D1E0EB;
+        font-weight: 17;
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    .button-1 {
+        margin-top: 30px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 16px 36px;
+        font-size: 20px;
+        font-weight: 10;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .block {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: rgb(228, 224, 224);
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-2, .information-2 {
+        color: #535363;
+        font-family: Arial,Helvetica,sans-serif;
+    }
+
+    .about-2 {
+        letter-spacing: normal;
+        font-weight: 1;
+        font-size: 45px;
+        margin-top: 40px;
+    }
+
+    .information-2 {
+        margin: 70px 60px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 22px;
+    }
+    
+    .saber-mas {
+        margin-top: 20px;
+        color: #FFFFFF;
+        background: #535363;
+        padding: 20px 40px;
+        font-size: 30px;
+        cursor: pointer !important;
+    }
+
+    .footer {
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 820px;
+        background: #535363;
+    }
+
+    .contact-1 {
+        font-size: 50px;
+        width: 100%;
+        font-family: sans-serif;
+        font-weight: 0;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .contact {
+        height: 60px;
+        display: flex;
+        margin-top: 40px;
+        color: #FFFFFF;
+    }
+
+    .contact-container {
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: space-around;
+        color: white;
+        height: 600px;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .formulario-2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa {
+        margin-top: 100px;
+        width: 40%;
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        background-image: url("https://www.google.com/maps/vt/data=u4V9SV2dI6GqRf6u9fcKZkECIgFDwYEBRZVmiNVAEWrdE2VnYyGovXuNduc0kMs8hwnX9FuygONXFFGhrow516b_PCBhdkTU_QNe89rHw4yNE5oLZ9zoNvJCIk2vckfczukcLZi4w2u_h4i2khH_D2ZE5_hhYaNuFjmgA2rDPnPOz5B-OKB8AKrFE4WxlQ");
+    }
+
+    .button-1:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+
+    .footer-saber-mas:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;  
+    }
+    
+    .saber-mas:hover {
+        transition: background 0.4s ease 0s;
+        background-color:  #535363a8;
+    }
+
+    .sobre-mi:hover, .servicios:hover, .proyectos:hover, .clientes:hover, .experiencia:hover, .contacto:hover {
+        transition: color 0.4s ease 0s;
+        color: #D1E0EB;
+    }
+
+    .informacion {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: -250px;
+        height: 130px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    .informacion > span {
+        margin-top: 13px;
+        display: inline-block;
+    }
+    
+    .formulario {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin-top: 60px;
+        outline: none;
+    }
+
+    .logo-face-1 {
+        width: 50px;
+        height: 50px;
+        margin-left: 90px;
+    }
+
+    .logo-twitter-1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-saber-mas {
+        margin-top: 10px;
+        color: #FFFFFF;
+        background: #acacb7;
+        border-radius: 0px;
+        border-bottom-color: #acacb7;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 10;
+        width: 100px;
+        margin-left: 155px;
+        font-family: sans-serif;
+        cursor: pointer !important;
+    }
+
+    .name-complete {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .name-complete:hover {
+        transition: color 0.4s ease 0s;
+        color:  #535363;
+    }
+}
